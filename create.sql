@@ -1,38 +1,60 @@
-create table Users
-(
-    user_id int primary key,
-    user_name varchar(50) not null,
-    password varchar(50) not null,
-    privilege varchar(50) check ( privilege in ('admin','patience','doctor') ) -- 多类型用户用于公开线上平台和内网管理员修改
-);
-Create table UserDetails
-( -- 用户个人信息，如真实姓名身份证号等，同样用于真实上线的平台，需要完善
-    user_id int primary key,
-    constraint fk_user foreign key (user_id) references Users(user_id)
-);
-Create table TreatmentRoom
-( -- 诊疗室信息,暂且只支持事先录入，也可以添加功能
-    room_id int primary key,
-    room_name varchar(50) not null,
-    room_location varchar(100) not null,
-    room_capacity int check(room_capacity >= 0) not null -- 诊疗室容量，也可用于判断是否空闲
-);
-Create table Schedules
-( -- 排班信息
-    schedule_id int primary key,
-    patience_id int not null,
-    doctor_id int not null,
-    treatroom_id int not null,
-    starttime date , -- 开始时间
-    endtime date,  -- 结束时间
-    schedule_status varchar(30), -- 排班状态（要添加约束为限定的几个值，如等待，正在处理，已过期/完成）
-    constraint fk_patience foreign key (patience_id) references Users(user_id),
-    constraint fk_doctor foreign key (doctor_id) references Users(user_id),
-    constraint fk_treatroom foreign key (treatroom_id) references TreatmentRoom(room_id)
-    /*
-        预期效果：
-            第x个人等叫号，当前叫第x-1个人(第x-1个人还在使用诊疗室)
-            一旦诊疗室空余，就叫第x个人的号（排班计划可以按开始时间排序）
-            【这是一个异步过程，刚开始上班/送走诊疗室病人使得有空余的时候，系统检查一遍诊疗室的下一个排班安排然后叫号】
-    */
-);
+create database Assignment;
+
+
+create table Patients(
+                         p_id int auto_increment primary key comment "病人号",
+                         p_name varchar(20) not null comment "病人姓名",
+                         gender boolean not null comment "性别 0男 1女",
+                         card_id varchar(18) not null comment "身份证号",
+                         birthday date not null comment "出生日期",
+                         phone varchar(11) not null comment "手机号",
+                         homeAddress text comment "家庭住址",
+                         contactPerson varchar(20) comment "紧急联系人",
+                         contactPhone varchar(11) comment "紧急联系人手机号",
+                         relation varchar(12) comment "与病人关系"
+)comment "病人";
+
+
+create table Doctors(
+                        d_id int auto_increment primary key comment "职工号",
+                        d_name varchar(20) not null comment "医生姓名",
+                        gender boolean not null comment "性别 0男 1女",
+                        card_id varchar(18) not null comment "身份证号",
+                        birthday date not null comment "出生日期",
+                        phone varchar(11) not null comment "手机号",
+                        homeAddress text comment "家庭住址"
+)comment "医生";
+
+create table Items(
+                      i_id int auto_increment primary key comment "项目号",
+                      i_name varchar(50) not null comment "项目名",
+
+                      finishTime int not null comment "项目完成所需时间"
+)comment "项目";
+
+create table Processes(
+                          pr_id int auto_increment primary key  comment "流程号",
+                          startTime datetime not null comment "治疗流程的日期",
+                          p_id int not null comment "病人号",
+                          constraint FK_Pat_Pro foreign key (p_id)references Patients(p_id)
+)comment "流程";
+
+create table Process_Items(
+                              id int primary key auto_increment,
+                              pr_id int not null comment "流程编号",
+                              i_id int not null comment "项目号",
+                              status int check ( status in (0,1,2,3)) not null comment "当前状态 0异常 1未启动 2进行中 3 结束",
+                              intervalTime int not null comment "项目间间隔的时间",
+                              num int not null comment '项目排序',
+                              foreign key (pr_id) references Processes (pr_id),
+                              foreign key (i_id) references Items(i_id)
+)comment "流程所拥有项目";
+
+create table Doctor_Item(
+                            di_id int auto_increment primary key,
+                            d_id int not null comment "医生职工号",
+                            i_id int not null comment "项目号",
+                            constraint FK_DI_Do foreign key (d_id)references Doctors(d_id),
+                            constraint FK_DI_It foreign key (i_id)references Items(i_id)
+)comment "医生项目关系表";
+
