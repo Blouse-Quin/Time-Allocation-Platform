@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="第 1 页" id="CYL-rokRkCU8ogtK8-tq">
-        <mxGraphModel dx="52" dy="39" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1370" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -65,7 +65,7 @@
                 <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#050000;" parent="1" source="FOU07dsEIMZlqrynYJpF-8" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FOU07dsEIMZlqrynYJpF-8" target="22">
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FOU07dsEIMZlqrynYJpF-8" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="FOU07dsEIMZlqrynYJpF-8" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;治疗流程管理模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;direction=south;fontColor=#050000;" parent="1" vertex="1">
@@ -98,7 +98,7 @@
                 <mxCell id="19" value="结束治疗项目" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;rotation=0;fillColor=#fa6800;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="395" y="180" width="40" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="人员报到" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;rotation=0;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="1">
+                <mxCell id="22" value="人员报到" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;rotation=0;fillColor=#fa6800;strokeColor=#C73500;" parent="1" vertex="1">
                     <mxGeometry x="690" y="180" width="40" height="90" as="geometry"/>
                 </mxCell>
             </root>
