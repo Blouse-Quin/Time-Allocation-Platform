@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="R-sdXesvqGWGLOIP16t0" name="Page-1">
-        <mxGraphModel dx="2825" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1883" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -133,8 +133,8 @@
                 <mxCell id="90" value="" style="line;strokeWidth=2;html=1;labelBorderColor=none;fontSize=23;fillColor=default;strokeColor=#030202;" vertex="1" parent="1">
                     <mxGeometry x="690" y="570" width="540" height="10" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="确认项目开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
-                    <mxGeometry x="720" y="510" width="160" height="40" as="geometry"/>
+                <mxCell id="91" value="确认项目&lt;br&gt;开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
+                    <mxGeometry x="896" y="489.5" width="120" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="92" value="结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
                     <mxGeometry x="910" y="590" width="70" height="40" as="geometry"/>
@@ -146,7 +146,7 @@
                     <mxGeometry x="1015" y="473" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" value="不做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
-                    <mxGeometry x="896" y="513" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="732" y="504.5" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="96" value="不做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
                     <mxGeometry x="390" y="265" width="120" height="40" as="geometry"/>
@@ -1038,8 +1038,8 @@
                 <mxCell id="549" value="&lt;font color=&quot;#ffffff&quot;&gt;用户注册&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
                     <mxGeometry x="852" y="3100" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="550" value="&lt;font color=&quot;#ffffff&quot;&gt;用户登录&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
-                    <mxGeometry x="1562" y="3040" width="120" height="40" as="geometry"/>
+                <mxCell id="550" value="&lt;font color=&quot;#ffffff&quot;&gt;用户注册&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" vertex="1" parent="1">
+                    <mxGeometry x="862" y="3110" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
