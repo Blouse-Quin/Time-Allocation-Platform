@@ -1,730 +1,1078 @@
 <mxfile host="65bd71144e">
     <diagram id="bvssFscDyuDv-YKe3aTY" name="第 1 页">
-        <mxGraphModel dx="444" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="463" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="5" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="210" y="70" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="210" y="470" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="12" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" value="病人通过系统报到" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="225" y="170" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="6" target="9" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="360" y="500" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="440" y="345"/>
-                            <mxPoint x="440" y="420"/>
-                            <mxPoint x="440" y="460"/>
-                            <mxPoint x="440" y="500"/>
-                            <mxPoint x="410" y="500"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="6" value="当前病人报到了吗" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="320" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="" style="edgeStyle=none;html=1;" parent="1" source="9" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="&amp;nbsp;修改当天病人报到名单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="225" y="400" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=none;html=1;" parent="1" source="12" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="285" y="320" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="470" y="265" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="480" y="265"/>
-                            <mxPoint x="480" y="390"/>
-                            <mxPoint x="480" y="500"/>
-                            <mxPoint x="420" y="500"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="12" value="病人当天有疗程么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="240" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="345" y="235" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="290" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="345" y="310" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="370" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="29" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="920" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="1320" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" value="" style="edgeStyle=none;html=1;" parent="1" source="29" target="37" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="医生通过系统报到" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="215" y="1020" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="" style="edgeStyle=none;html=1;" parent="1" source="32" target="34" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="32" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="1350" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="430" y="1195"/>
-                            <mxPoint x="430" y="1270"/>
-                            <mxPoint x="430" y="1310"/>
-                            <mxPoint x="430" y="1350"/>
-                            <mxPoint x="400" y="1350"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="32" value="医生报到了吗" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="1170" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="1" source="34" target="27" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="&amp;nbsp;修改当天医生报到名单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="215" y="1250" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" source="37" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="274.9999999999999" y="1170" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="36" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="37" target="27" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="460" y="1115" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="470" y="1115"/>
-                            <mxPoint x="470" y="1240"/>
-                            <mxPoint x="470" y="1350"/>
-                            <mxPoint x="410" y="1350"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="37" value="医生当天值班么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="1090" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="335" y="1085" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="1140" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="335" y="1160" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="41" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="1220" width="30" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="43" value="病人模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="10" y="10" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="病人报到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="40" width="70" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="49" edge="1">
+                <mxCell id="45" value="c" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="46" target="49" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="70" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="165" y="87.5" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="470" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="165" y="487.5" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="" style="edgeStyle=none;html=1;" parent="1" source="49" target="57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="病人获取流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="595" y="170" width="120" height="40" as="geometry"/>
+                <mxCell id="49" value="获取流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="187.5" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="" style="edgeStyle=none;html=1;" parent="1" source="54" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="将查询到的流程单显示给病人" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="595" y="360" width="120" height="40" as="geometry"/>
+                <mxCell id="54" value="显示流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="377.5" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="57" target="54" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="654.9999999999999" y="320" as="targetPoint"/>
+                        <mxPoint x="239.9999999999999" y="337.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="56" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="57" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="840" y="265" as="targetPoint"/>
+                        <mxPoint x="425" y="282.5" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="850" y="265"/>
-                            <mxPoint x="850" y="390"/>
-                            <mxPoint x="850" y="500"/>
-                            <mxPoint x="790" y="500"/>
+                            <mxPoint x="435" y="282.5"/>
+                            <mxPoint x="435" y="407.5"/>
+                            <mxPoint x="435" y="517.5"/>
+                            <mxPoint x="375" y="517.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="57" value="有该流程单么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="240" width="110" height="50" as="geometry"/>
+                    <mxGeometry x="185" y="257.5" width="110" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="715" y="235" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="300" y="252.5" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="660" y="290" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="245" y="307.5" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="病人查看流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="490" y="35" width="100" height="30" as="geometry"/>
+                <mxCell id="62" value="查询流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="52.5" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="64" target="67" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="980" y="65" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="630" y="82.5" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="980" y="465" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="630" y="632.5" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" value="" style="edgeStyle=none;html=1;" parent="1" source="67" target="75" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="病人查看当前项目" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="995" y="165" width="120" height="40" as="geometry"/>
+                <mxCell id="67" value="查询流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="645" y="182.5" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="edgeStyle=none;html=1;" parent="1" source="72" target="65" edge="1">
+                <mxCell id="244" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="72" target="240">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="修改当前项目状态为已开始" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="995" y="330" width="120" height="40" as="geometry"/>
+                <mxCell id="72" value="查询目标项目" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="645" y="347.5" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="75" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1055" y="390" as="targetPoint"/>
+                        <mxPoint x="705" y="407.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="75" target="65" edge="1">
+                <mxCell id="248" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="75">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1240" y="260" as="targetPoint"/>
+                        <mxPoint x="780" y="661.2183634440104" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1250" y="260"/>
-                            <mxPoint x="1250" y="385"/>
-                            <mxPoint x="1250" y="495"/>
-                            <mxPoint x="1190" y="495"/>
+                            <mxPoint x="920" y="280"/>
+                            <mxPoint x="920" y="661"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="75" value="当前项目开始了么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1000" y="235" width="110" height="50" as="geometry"/>
+                <mxCell id="75" value="该流程存在么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="252.5" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1115" y="230" width="30" height="30" as="geometry"/>
+                <mxCell id="76" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="765" y="247.5" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1060" y="285" width="30" height="30" as="geometry"/>
+                <mxCell id="77" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="302.5" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" value="病人确认项目开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="860" y="35" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="82" target="85" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="1425" y="65" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="1425" y="555" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="" style="edgeStyle=none;html=1;" parent="1" source="85" target="90" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="病人查看当前项目" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1440" y="165" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" value="" style="edgeStyle=none;html=1;" parent="1" source="87" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1500" y="380" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="87" value="通知医生确认项目结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1440" y="320" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="90" target="87" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1500" y="390" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="89" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="90" target="83" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1685" y="260" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1695" y="260"/>
-                            <mxPoint x="1695" y="385"/>
-                            <mxPoint x="1695" y="585"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="90" value="当前项目结束了么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1445" y="235" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1560" y="230" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1500" y="280" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="病人确认项目结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1305" y="35" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="510" y="52.5" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="94" value="医生模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="20" y="800" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="医生报到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="885" width="70" height="30" as="geometry"/>
+                <mxCell id="181" value="&lt;span style=&quot;color: rgb(10, 10, 10); font-size: 15px;&quot;&gt;治疗流程管理模块&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="1660" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="99" target="102" edge="1">
+                <mxCell id="201" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="202" target="205" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="99" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="920" width="150" height="60" as="geometry"/>
+                <mxCell id="202" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="169" y="1760" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="1320" width="150" height="60" as="geometry"/>
+                <mxCell id="203" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="2300" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="101" value="" style="edgeStyle=none;html=1;" parent="1" source="102" edge="1">
+                <mxCell id="204" value="" style="edgeStyle=none;html=1;" parent="1" source="205" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="645" y="1090" as="targetPoint"/>
+                        <mxPoint x="244" y="1930" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="102" value="医生新建一个流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="585" y="1020" width="120" height="40" as="geometry"/>
+                <mxCell id="205" value="查看当前已报到病人" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="184" y="1860" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="103" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="105" target="128" edge="1">
+                <mxCell id="212" value="医生排班" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="1715" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="" style="edgeStyle=none;html=1;" parent="1" source="214" target="216" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="查看当前已报到医生" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="184" y="1930" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="222" target="214" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="645" y="1250" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="645" y="1255"/>
-                            <mxPoint x="520" y="1255"/>
-                            <mxPoint x="520" y="1165"/>
-                            <mxPoint x="520" y="1110"/>
+                            <mxPoint x="375" y="2045"/>
+                            <mxPoint x="375" y="1950"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="104" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="105" edge="1">
+                <mxCell id="227" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.009;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="216" target="222" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="720" y="1350" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="770" y="1195"/>
-                            <mxPoint x="770" y="1270"/>
-                            <mxPoint x="770" y="1350"/>
+                            <mxPoint x="320" y="2045"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="105" value="这是最后一个项目吗" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="590" y="1170" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="108" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="128" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="645" y="1170" as="targetPoint"/>
-                        <mxPoint x="645" y="1140" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="113" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="705" y="1160" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="115" value="医生添加诊疗单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="445" y="880" width="110" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="118" value="" style="edgeStyle=none;html=1;" parent="1" source="117" target="83" edge="1">
+                <mxCell id="228" value="" style="edgeStyle=none;html=1;" parent="1" source="216" target="226" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="修改当前项目状态为结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1440" y="460" width="120" height="40" as="geometry"/>
+                <mxCell id="216" value="该医生能负责这个病人的疗程么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="2020" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="120" value="" style="edgeStyle=none;html=1;" parent="1" source="119" target="117" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="220" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="2015" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="119" target="124" edge="1">
+                <mxCell id="221" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="2070" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" style="edgeStyle=none;html=1;" parent="1" source="222" edge="1">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="2230" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1630" y="405"/>
+                            <mxPoint x="375" y="2230"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="119" value="医生确认结束了么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1445" y="380" width="110" height="50" as="geometry"/>
+                <mxCell id="222" value="是最后一名已报到医生么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="2110" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="122" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1505" y="425" width="30" height="30" as="geometry"/>
+                <mxCell id="233" value="" style="edgeStyle=none;html=1;" parent="1" source="226" target="230" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="124" target="83" edge="1">
+                <mxCell id="226" value="把医生分配给该病人的疗程/项目" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="185" y="2120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="230" target="205" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="1630" y="585"/>
+                            <mxPoint x="130" y="2230"/>
+                            <mxPoint x="130" y="1880"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="124" value="不做修改" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1570" y="460" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="127" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1555" y="375" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="128" value="往该流程单添加一个项目" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="585" y="1090" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="130" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="131" target="134" edge="1">
+                <mxCell id="235" value="" style="edgeStyle=none;html=1;" parent="1" source="230" target="203" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="952" y="925" width="150" height="60" as="geometry"/>
+                <mxCell id="230" value="是最后一位病人么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="2205" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="132" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="952" y="1425" width="150" height="60" as="geometry"/>
+                <mxCell id="232" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="165" y="2195" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="134" target="137" edge="1">
+                <mxCell id="236" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="2245" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="2085" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="2155" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="240" target="242">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="240" target="65">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1027" y="1095" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="134" value="医生查找流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="967" y="1025" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="136" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="137" target="132" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1160" y="1546.33330078125" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1150" y="1120"/>
-                            <mxPoint x="1152" y="1275"/>
-                            <mxPoint x="1152" y="1355"/>
-                            <mxPoint x="1150" y="1455"/>
+                            <mxPoint x="870" y="448"/>
+                            <mxPoint x="870" y="663"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="143" value="" style="edgeStyle=none;html=1;" parent="1" source="137" target="142" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="240" value="该项目存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="422.5" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="137" value="该流程单存在么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="972" y="1095" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="139" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1080" y="1095" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="140" value="医生编辑诊疗单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="827" y="885" width="110" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="145" value="" style="edgeStyle=none;html=1;" parent="1" source="142" target="144" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="142" value="返回流程单并展示修改页面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="967" y="1180" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="148" value="" style="edgeStyle=none;html=1;" parent="1" source="144" target="147" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="144" value="医生修改流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="967" y="1255" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="146" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1025" y="1140" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="149" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="147" target="132" edge="1">
+                <mxCell id="249" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="242" target="65">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1120" y="1535.66669921875" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1120" y="1350"/>
-                            <mxPoint x="1120" y="1455"/>
+                            <mxPoint x="830" y="523"/>
+                            <mxPoint x="830" y="660"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="151" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="147" edge="1">
+                <mxCell id="251" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="242" target="250">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="该项目确认开始了么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="497.5" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="250" target="65">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="确认项目已经开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="565" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="765" y="415" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="715" y="465" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="775" y="495" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="705" y="535" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="258" target="261">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1145" y="107.5" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1145" y="657.5" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="261" target="266">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="查询流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="207.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="263" target="272">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="查询目标项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="372.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="266" target="263">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1030" y="1235" as="targetPoint"/>
+                        <mxPoint x="1220" y="432.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="265" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="266">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1295" y="686.2183634440103" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1027" y="1395"/>
-                            <mxPoint x="910" y="1395"/>
-                            <mxPoint x="910" y="1235"/>
+                            <mxPoint x="1435" y="305"/>
+                            <mxPoint x="1435" y="686"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="147" value="这是最后一次修改么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="972" y="1325" width="110" height="50" as="geometry"/>
+                <mxCell id="266" value="该流程存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1165" y="277.5" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1075" y="1325" width="30" height="30" as="geometry"/>
+                <mxCell id="267" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="272.5" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1025" y="1370" width="30" height="30" as="geometry"/>
+                <mxCell id="268" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1225" y="327.5" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="154" target="157" edge="1">
+                <mxCell id="269" value="病人确认项目结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1025" y="77.5" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="272" target="275">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="1410" y="925" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="155" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="1410" y="1555" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="157" value="医生查看流程单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1425" y="1025" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="159" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="160" target="155" edge="1">
+                <mxCell id="271" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="272" target="259">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1560" y="1445" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1610" y="1110"/>
-                            <mxPoint x="1610" y="1200"/>
-                            <mxPoint x="1610" y="1275"/>
-                            <mxPoint x="1610" y="1445"/>
-                            <mxPoint x="1610" y="1585"/>
+                            <mxPoint x="1385" y="473"/>
+                            <mxPoint x="1385" y="688"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="166" value="" style="edgeStyle=none;html=1;" parent="1" source="160" target="165" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="272" value="该项目存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1165" y="447.5" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="该流程存在吗" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1430" y="1085" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="161" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="157" target="160" edge="1">
+                <mxCell id="273" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="275" target="259">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1485" y="1175" as="targetPoint"/>
-                        <mxPoint x="1485" y="1135" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="162" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1535" y="1085" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="164" value="医生确认项目/流程开始/结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1230" y="890" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="168" value="" style="edgeStyle=none;html=1;" parent="1" source="165" target="167" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="165" value="医生修改项目/流程为开始/结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1425" y="1170" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="169" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="167" target="155" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1590" y="1265.2380952380952" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1580" y="1265"/>
-                            <mxPoint x="1580" y="1355"/>
-                            <mxPoint x="1580" y="1445"/>
-                            <mxPoint x="1580" y="1585"/>
+                            <mxPoint x="1345" y="548"/>
+                            <mxPoint x="1345" y="685"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="172" value="" style="edgeStyle=none;html=1;" parent="1" source="167" target="171" edge="1">
+                <mxCell id="274" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="275" target="277">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="该流程/项目已经是开始/结束了么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1430" y="1240" width="110" height="50" as="geometry"/>
+                <mxCell id="275" value="该项目确认结束了么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1165" y="522.5" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1540" y="1240" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="174" value="" style="edgeStyle=none;html=1;" parent="1" source="171" target="173" edge="1">
+                <mxCell id="276" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="277" target="259">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" value="通知病人确认" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1425" y="1315" width="120" height="40" as="geometry"/>
+                <mxCell id="277" value="确认项目已经结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="590" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" value="" style="edgeStyle=none;html=1;" parent="1" source="173" target="175" edge="1">
+                <mxCell id="278" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="440" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="279" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="490" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="280" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1290" y="520" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="281" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1220" y="560" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="283" target="286">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="179" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="173" target="155" edge="1">
+                <mxCell id="283" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="870" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="284" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="1420" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="286" target="291">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="286" value="查询流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="970" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="288" target="297">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="288" value="查询目标项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="1135" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="289" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="291" target="288">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1340" y="1409" as="targetPoint"/>
+                        <mxPoint x="275" y="1195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="290" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="291">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="1448.7183634440103" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="1340" y="1409"/>
-                            <mxPoint x="1340" y="1585"/>
+                            <mxPoint x="490" y="1067.5"/>
+                            <mxPoint x="490" y="1448.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="173" value="病人确认了么" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1430" y="1384" width="110" height="50" as="geometry"/>
+                <mxCell id="291" value="该流程存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1040" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="" style="edgeStyle=none;html=1;" parent="1" source="175" target="155" edge="1">
+                <mxCell id="292" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="1035" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="293" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1090" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="294" value="开启治疗项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="840" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="295" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="297" target="300">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="修改流程/项目为已开始/结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1425" y="1455" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="178" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1485" y="1430" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="180" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="1405" y="1380" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="181" value="流程管理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="1660" width="100" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="182" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="183" target="186" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="183" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="144" y="1760" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="184" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="144" y="2120" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="185" value="" style="edgeStyle=none;html=1;" parent="1" source="186" target="194" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="186" value="系统识别当前待叫号病人" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="159" y="1860" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="187" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="194" target="191" edge="1">
+                <mxCell id="296" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="297" target="284">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="219" y="2060" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="190" value="" style="edgeStyle=none;html=1;" parent="1" source="191" target="184" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="191" value="将待叫号病人名单送至叫号系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="159" y="2030" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="193" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="194" target="186" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="404" y="1955" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="414" y="1955"/>
-                            <mxPoint x="414" y="1880"/>
-                            <mxPoint x="360" y="1880"/>
+                            <mxPoint x="440" y="1235.5"/>
+                            <mxPoint x="440" y="1450.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="194" value="当前诊疗室是否有空位" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="164" y="1930" width="110" height="50" as="geometry"/>
+                <mxCell id="297" value="该项目存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1210" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="279" y="1925" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="199" value="病人叫号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="65" y="1715" width="70" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="200" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="1980" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="201" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="202" target="205">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="202" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="569" y="1760" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="203" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="570" y="2300" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="204" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="205">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="644" y="1930" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="205" value="查看当前已报到病人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="584" y="1860" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="212" value="医生排班" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="490" y="1715" width="70" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="217" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="214" target="216">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="214" value="查看当前已报到医生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="584" y="1930" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="219" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="222" target="214">
+                <mxCell id="298" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="300" target="284">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="775" y="2045"/>
-                            <mxPoint x="775" y="1950"/>
+                            <mxPoint x="400" y="1310"/>
+                            <mxPoint x="400" y="1447.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="227" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.009;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="216" target="222">
+                <mxCell id="299" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="300" target="302">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="该项目未开始么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1285" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="302" target="284">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="302" value="开始该项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="1352.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="1202.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="1252.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="1282.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="1322.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="308" target="311">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="865" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="1415" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="310" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="311" target="316">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="311" value="查询流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="965" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="312" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="313" target="322">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="313" value="查询目标项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="1130" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="314" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="316" target="313">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="1190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="315" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="316">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="795" y="1443.7183634440103" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="720" y="2045"/>
+                            <mxPoint x="935" y="1062.5"/>
+                            <mxPoint x="935" y="1443.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="228" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="216" target="226">
+                <mxCell id="316" value="该流程存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="1035" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="317" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1030" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="318" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="725" y="1085" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" value="结束治疗项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="535" y="835" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="320" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="322" target="325">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="216" value="该医生能负责这个病人的疗程么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="590" y="2020" width="110" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="220" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="705" y="2015" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="221" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="650" y="2070" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="238" style="edgeStyle=none;html=1;" edge="1" parent="1" source="222">
+                <mxCell id="321" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="322" target="309">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="700.0000000000002" y="2230" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="775" y="2230"/>
+                            <mxPoint x="885" y="1230.5"/>
+                            <mxPoint x="885" y="1445.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="222" value="是最后一名已报到医生么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="720" y="2110" width="110" height="50" as="geometry"/>
+                <mxCell id="322" value="该项目存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="1205" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="233" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="226" target="230">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="226" value="把医生分配给该病人的疗程/项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="585" y="2120" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="231" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="230" target="205">
+                <mxCell id="323" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="325" target="309">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="530" y="2225"/>
-                            <mxPoint x="530" y="1880"/>
+                            <mxPoint x="845" y="1305"/>
+                            <mxPoint x="845" y="1442.5"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="235" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="230" target="203">
+                <mxCell id="324" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="325" target="327">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="230" value="是最后一位病人么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="590" y="2200" width="110" height="50" as="geometry"/>
+                <mxCell id="325" value="该项目结束了么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="1280" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="232" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="565" y="2195" width="30" height="30" as="geometry"/>
+                <mxCell id="326" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="327" target="309">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="236" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="645" y="2245" width="30" height="30" as="geometry"/>
+                <mxCell id="327" value="结束该项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="1347.5" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="775" y="2085" width="30" height="30" as="geometry"/>
+                <mxCell id="328" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1197.5" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="239" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="775" y="2155" width="30" height="30" as="geometry"/>
+                <mxCell id="329" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="1247.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="1277.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="1317.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="333" target="336">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1091" y="885" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1091" y="1165" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="336">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1166" y="1055" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="336" value="查找可开启的流程/项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1106" y="985" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" value="&lt;span style=&quot;color: rgb(10, 10, 10);&quot;&gt;查询当前可开启治疗项目&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1005" y="850" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="360" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="359" target="334">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="359" value="返回可开启的流程/项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1106" y="1055" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="366" value="查询病人治疗流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1335" y="850" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="369" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="370" target="373">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="370" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="885" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="371" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="1510" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="372" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="373" target="378">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="373" value="查询病人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1415" y="985" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="374" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="375" target="383">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="375" value="查询病人的流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1415" y="1150" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="376" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="378" target="375">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1475" y="1210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="377" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="378" target="371">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1550" y="1463.7183634440103" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1690" y="1080"/>
+                            <mxPoint x="1690" y="1463.5"/>
+                            <mxPoint x="1690" y="1540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="378" value="该病人存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1420" y="1055" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="379" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1535" y="1050" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="380" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="1105" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="381" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="383" target="388">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1475" y="1300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="382" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="383" target="371">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1640" y="1250.5"/>
+                            <mxPoint x="1640" y="1465.5"/>
+                            <mxPoint x="1640" y="1540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="383" value="该病人有流程么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1420" y="1225" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="388" target="398">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" value="查看特定流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1415" y="1347.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="389" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1535" y="1217.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="394" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1475" y="1265" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="400" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="398" target="371">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" value="返回流程细节" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1415" y="1425" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="401" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="402" target="405">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="402" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="626.5" y="1770" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="403" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="626.5" y="2390" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="404" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="405">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="701.5" y="1939.9999999999995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="405" value="查看当前已报到病人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="641.5" y="1870" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="407" value="查看病人对应流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="641.5" y="1940" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="407" target="416">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="702.5" y="2080" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="428" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="416" target="427">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="416" value="查看当前项目可用诊疗室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="641.5" y="2015" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="417" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="419" target="405">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="588" y="2315"/>
+                            <mxPoint x="587.5" y="2235"/>
+                            <mxPoint x="587.5" y="1890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="418" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="419" target="403">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="419" value="是最后一位病人么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="646.5" y="2290" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="420" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="616.5" y="2205" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="705" y="2340" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" value="诊疗室安排" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="1730" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="427" target="430">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="427" target="439">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="427" value="该诊疗室超载了么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="646.5" y="2075" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="434" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="429" target="416">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630.0000000000002" y="2230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="2230"/>
+                            <mxPoint x="600" y="2035"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="436" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="429" target="419">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="429" value="是最后一个项目么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="646.5" y="2205" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="433" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="430" target="429">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="430" value="分配项目到诊疗室" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="641.5" y="2145" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="432" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="695" y="2115" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="438" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="2255" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="439" target="430">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="845" y="2165"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="444" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="439" target="416">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="845" y="2035"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="439" value="是最后一个诊疗室么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="2075" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="441" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="755" y="2075" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="815" y="2115" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="445" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="815" y="2035" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="448" target="451">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="448" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1139" y="1775" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="449" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1139" y="2120" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="450" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="451">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1214" y="1945" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="451" value="新增流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1154" y="1875" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="452" value="添加流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="1730" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="454" target="458">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="添加项目到流程里" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1154" y="1945" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="456" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="458" target="454">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1290" y="2060"/>
+                            <mxPoint x="1330" y="2060"/>
+                            <mxPoint x="1330" y="1960"/>
+                        </Array>
+                        <mxPoint x="1290.99" y="2152.9" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="457" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="458" target="449">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1215" y="2135" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="458" value="是最后一个项目么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1159" y="2035" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="459" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1265" y="2030" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="460" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1220" y="2085" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="472" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="473" target="476">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="473" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1494" y="1770" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="474" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1494" y="2115" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="475" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="476">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1569" y="1939.9999999999995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="476" value="查询特定流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1509" y="1870" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="477" value="删除流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1415" y="1725" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="488" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="482" target="487">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="491" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="482" target="474">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1710" y="1965"/>
+                            <mxPoint x="1710" y="2145"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="482" value="该流程存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1514" y="1940" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="489" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="487" target="474">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="487" value="删除该流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1509" y="2020" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="490" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1565" y="1985" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="505" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="506" target="509" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="506" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1889" y="1770" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="507" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1889" y="2115" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="508" value="" style="edgeStyle=none;html=1;" edge="1" source="509" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1964" y="1940" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="509" value="查询特定流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1904" y="1870" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="510" value="编辑流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1810" y="1725" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="518" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1625" y="1935" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="523" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="519" target="521">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="524" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="519" target="507">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2090" y="1965"/>
+                            <mxPoint x="2090" y="2145"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="519" value="该流程存在么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1909" y="1940" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="522" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="521" target="507">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="521" value="修改该流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1904" y="2015" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="525" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2005" y="1935" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="526" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1965" y="1985" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="528" value="&lt;font color=&quot;#0a0a0a&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;用户模块&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="2450" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="530" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="531" target="534">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="531" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="184" y="2545" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="532" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="2990" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="534" value="用户报到" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="199" y="2645" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="535" value="用户报到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="105" y="2500" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="536" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="534" target="541">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="259.2105263157895" y="2755" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="540" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="541" target="547">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="560" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="541" target="559">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="413" y="2760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="541" value="该用户是医生么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2730" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="542" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="2720" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="543" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="2780" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="546" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="547">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="2990" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="547" value="把用户存入当天报到的医生列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="2815" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="561" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="559" target="532">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="2910"/>
+                            <mxPoint x="260" y="2910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="559" value="把用户存入当天报到的病人列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="2815" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="562" value="用户注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="2500" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="563" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="564" target="566" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="564" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="598" y="2542.5" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="565" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="601.5" y="2990" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="566" value="用户填入个人信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="613" y="2642.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="567" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="566" target="570" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="673.2105263157895" y="2752.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="568" value="" style="edgeStyle=none;html=1;" edge="1" source="570" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="674" y="2812.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="569" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="570" parent="1" target="565">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="827" y="2812.4999999999995" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="830" y="2750"/>
+                            <mxPoint x="830" y="3020"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="570" value="信息合法么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="619" y="2727.5" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="571" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="729" y="2717.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="572" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="669" y="2777.5" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="580" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="576" target="579">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="582" style="edgeStyle=none;html=1;entryX=1.016;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="576" target="565">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="800" y="2835"/>
+                            <mxPoint x="800" y="3020"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="576" value="是否已经有同样信息的用户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="2810" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="578" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="2855" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="581" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="579" target="565">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="579" value="注册一个新用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="616.5" y="2903" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="583" value="用户登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="2542.5" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="584" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="585" target="587" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="585" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1118" y="2585" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="586" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1119" y="2960" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="587" value="用户填入登录所需信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1133" y="2685" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="588" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="587" target="591" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1193.2105263157896" y="2795" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="589" value="" style="edgeStyle=none;html=1;" edge="1" source="591" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1194" y="2855" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="590" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="591" target="586" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1347" y="2854.9999999999995" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1350" y="2792.5"/>
+                            <mxPoint x="1350" y="2990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="591" value="信息合法么" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1139" y="2770" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="592" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1249" y="2760" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="593" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1189" y="2820" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="598" value="" style="edgeStyle=none;html=1;" edge="1" source="599" target="586" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="599" value="用户登录成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1134" y="2855" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
