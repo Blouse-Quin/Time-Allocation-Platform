@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="R-sdXesvqGWGLOIP16t0" name="Page-1">
-        <mxGraphModel dx="4620" dy="2623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="777" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -581,7 +581,7 @@
                     <mxGeometry x="581" y="1805" width="10" height="245" as="geometry"/>
                 </mxCell>
                 <mxCell id="296" value="把医生分配&lt;br&gt;给该病人的&lt;br&gt;疗程/项目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="1990" width="140" height="100" as="geometry"/>
+                    <mxGeometry x="190" y="1950" width="140" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="299" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" parent="1" vertex="1">
                     <mxGeometry x="515" y="1900" width="40" height="40" as="geometry"/>
@@ -614,10 +614,10 @@
                     <mxGeometry x="200" y="1900" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="336" value="" style="line;strokeWidth=2;html=1;labelBorderColor=none;fontSize=23;fillColor=default;strokeColor=#030202;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="356" y="1950" width="10" height="180" as="geometry"/>
+                    <mxGeometry x="356" y="1950" width="10" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="339" value="" style="line;strokeWidth=2;html=1;labelBorderColor=none;fontSize=23;fillColor=default;strokeColor=#030202;" parent="1" vertex="1">
-                    <mxGeometry x="358" y="2045" width="230" height="10" as="geometry"/>
+                    <mxGeometry x="160" y="2045" width="428" height="10" as="geometry"/>
                 </mxCell>
                 <mxCell id="340" value="不做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" parent="1" vertex="1">
                     <mxGeometry x="413.53999999999996" y="1975" width="120" height="40" as="geometry"/>
@@ -680,7 +680,7 @@
                     <mxGeometry x="979.87" y="1945" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="366" value="分配项目到&lt;br&gt;诊疗室" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" parent="1" vertex="1">
-                    <mxGeometry x="886" y="2050" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="881.2" y="2015.5" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="367" value="是最后一个项目么？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" parent="1" vertex="1">
                     <mxGeometry x="1020.5" y="2160" width="230" height="40" as="geometry"/>
@@ -701,10 +701,10 @@
                     <mxGeometry x="1236" y="1944" width="10" height="145" as="geometry"/>
                 </mxCell>
                 <mxCell id="376" value="" style="line;strokeWidth=2;html=1;labelBorderColor=none;fontSize=23;fillColor=default;strokeColor=#030202;" parent="1" vertex="1">
-                    <mxGeometry x="1044" y="2083" width="197" height="10" as="geometry"/>
+                    <mxGeometry x="860" y="2083" width="381" height="10" as="geometry"/>
                 </mxCell>
                 <mxCell id="377" value="" style="line;strokeWidth=2;html=1;labelBorderColor=none;fontSize=23;fillColor=default;strokeColor=#030202;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="1040" y="2015.5" width="10" height="128" as="geometry"/>
+                    <mxGeometry x="1040" y="2015.5" width="10" height="74.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="378" value="不做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontColor=#030303;" parent="1" vertex="1">
                     <mxGeometry x="1085" y="2030.5" width="120" height="40" as="geometry"/>
