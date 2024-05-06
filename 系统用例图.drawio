@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="zOq5p_S0FHNZK2LhKQCT" name="第 1 页">
-        <mxGraphModel dx="2082" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1874" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="75" value="康复诊疗排班系统" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=150;height=30;" parent="1" vertex="1">
-                    <mxGeometry x="110" width="1490" height="860" as="geometry"/>
+                    <mxGeometry x="110" width="690" height="620" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="医生" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
                     <mxGeometry x="-20" y="410" width="30" height="60" as="geometry"/>
