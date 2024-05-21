@@ -1,0 +1,207 @@
+<mxfile host="65bd71144e">
+    <diagram id="BYAgiORMlI9uqCXqJPYh" name="第 1 页">
+        <mxGraphModel dx="823" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;注册账户&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.216;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.034;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="115.34000000000003" y="152.98000000000002" as="sourcePoint"/>
+                        <mxPoint x="242.84000000000003" y="151.34000000000003" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;登录系统&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.132;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0026" width="80" relative="1" as="geometry">
+                        <mxPoint x="120" y="180" as="sourcePoint"/>
+                        <mxPoint x="243.68000000000006" y="180.51999999999998" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;报到&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.118;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0025" width="80" relative="1" as="geometry">
+                        <mxPoint x="116.17999999999995" y="209.63" as="sourcePoint"/>
+                        <mxPoint x="242" y="209.63" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="医生" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="80" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;查询病人&lt;br&gt;治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.255;exitY=0.921;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0012" width="80" relative="1" as="geometry">
+                        <mxPoint x="117.54999999999995" y="259.7299999999999" as="sourcePoint"/>
+                        <mxPoint x="242" y="259.9999999999999" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;返回查询的治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="-0.0014" width="80" relative="1" as="geometry">
+                        <mxPoint x="249.5" y="310.54999999999995" as="sourcePoint"/>
+                        <mxPoint x="110" y="310.54999999999995" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;编辑治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.177;entryY=0.253;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="116" y="359.81999999999994" as="sourcePoint"/>
+                        <mxPoint x="244" y="358" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="返回排班信息" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.191;exitY=0.21;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="245" y="479.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="108.42034482758618" y="479.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;更新治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.91;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0053" width="80" relative="1" as="geometry">
+                        <mxPoint x="254.0999999999999" y="368.32899999999995" as="sourcePoint"/>
+                        <mxPoint x="380" y="368" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;注册账户&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.216;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.034;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="760.3399999999999" y="146.98000000000002" as="sourcePoint"/>
+                        <mxPoint x="887.8399999999999" y="145.34000000000003" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;登录系统&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.132;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0026" width="80" relative="1" as="geometry">
+                        <mxPoint x="764.9999999999998" y="174" as="sourcePoint"/>
+                        <mxPoint x="888.6800000000001" y="174.51999999999998" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;报到&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.118;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0025" width="80" relative="1" as="geometry">
+                        <mxPoint x="761.1799999999998" y="203.6300000000001" as="sourcePoint"/>
+                        <mxPoint x="890" y="203.6300000000001" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;查询自己的&lt;br&gt;治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.255;exitY=0.921;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0012" width="80" relative="1" as="geometry">
+                        <mxPoint x="762.55" y="253.73000000000002" as="sourcePoint"/>
+                        <mxPoint x="894.5" y="254" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="885" y="254"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;返回查询的治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="-0.0014" width="80" relative="1" as="geometry">
+                        <mxPoint x="894.5" y="304.44000000000005" as="sourcePoint"/>
+                        <mxPoint x="755" y="304.44000000000005" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="243" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="&lt;span style=&quot;&quot;&gt;操作窗口&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="208" y="80" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="59">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="&lt;span style=&quot;&quot;&gt;Process&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="80" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="385" y="490" as="targetPoint"/>
+                        <mxPoint x="385" y="115.00000000000011" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="Item" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="85" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;管理治疗项目&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.118;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0065" width="80" relative="1" as="geometry">
+                        <mxPoint x="116.17999999999995" y="398" as="sourcePoint"/>
+                        <mxPoint x="245" y="398" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;确认项目&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.118;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0065" width="80" relative="1" as="geometry">
+                        <mxPoint x="116.17999999999995" y="447" as="sourcePoint"/>
+                        <mxPoint x="245" y="447" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;读取治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.331;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.91;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0053" width="80" relative="1" as="geometry">
+                        <mxPoint x="257.40999999999985" y="269.9989999999998" as="sourcePoint"/>
+                        <mxPoint x="385" y="271.09000000000015" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;返回治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.124;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="383.75999999999976" y="299.7800000000001" as="sourcePoint"/>
+                        <mxPoint x="255.5" y="299.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;更新治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.91;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0053" width="80" relative="1" as="geometry">
+                        <mxPoint x="257.40999999999985" y="459.9989999999998" as="sourcePoint"/>
+                        <mxPoint x="530" y="460" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="83">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="755" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="病人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="80" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="85">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="操作窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="855" y="80" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="87">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1020" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="Item" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="995" y="85" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;读取治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.331;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.91;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry x="0.0053" width="80" relative="1" as="geometry">
+                        <mxPoint x="889.9999999999998" y="269.9989999999997" as="sourcePoint"/>
+                        <mxPoint x="1017.5899999999999" y="271.09000000000003" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;返回治疗流程&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.124;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="1018.2600000000002" y="290.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="890" y="290.2199999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
